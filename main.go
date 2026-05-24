@@ -51,7 +51,7 @@ func main() {
 			var index int
 			fmt.Print("Enter the index of the task: ")
 			fmt.Scan(&index)
-			todo.MarkTodo(index, &TodoData)
+			todo.MarkTask(index, &TodoData)
 		case 4:
 			var index int
 			fmt.Print("Enter the index of the task: ")
